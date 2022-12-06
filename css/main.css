@@ -282,50 +282,6 @@ PIC COLLAGE
     padding: 10px;
 }
 
-@media screen and (max-width: 799px) {
-    
-    /*MOBILE DROPDOWN*/
-    .full{
-        display: none;
-    }
-    .mobile {
-        overflow: hidden;;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-    
-    .dropdown .dropbtn {
-        cursor: pointer; 
-        border: none;
-        outline: none;
-        padding: 14px 16px;
-        background-color: inherit;
-        font-family: quasimoda-2, sans-serif;
-        font-weight: 600;
-        font-size: 18px;
-        color: #293786;
-    }
-    
-    .dropdown-content {
-        display: none;
-        position: absolute;
-        background-color: #ffffff;
-        width: fit-content;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        z-index: 1;
-    }
-    
-    .dropdown-content a {
-        float: none;
-        padding: 12px 16px;
-        display: block;
-        text-align: left;
-    }
-    
-    .show {
-        display: block;
-    }
-}
-
 /*------------------------------------------------------
 ********************************************************
 MEMBER PAGE
@@ -548,7 +504,51 @@ MEDIA QUERIES PAGE
 ********************************************************
 ------------------------------------------------------*/
 
-@media screen and (min-width: 800px) {
+@media screen and (max-width: 767px) {
+    
+    /*MOBILE DROPDOWN*/
+    .full{
+        display: none;
+    }
+    .mobile {
+        overflow: hidden;;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .dropdown .dropbtn {
+        cursor: pointer; 
+        border: none;
+        outline: none;
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: quasimoda-2, sans-serif;
+        font-weight: 600;
+        font-size: 18px;
+        color: #293786;
+    }
+    
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #ffffff;
+        width: fit-content;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+    
+    .dropdown-content a {
+        float: none;
+        padding: 12px 16px;
+        display: block;
+        text-align: left;
+    }
+    
+    .show {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 768px) {
     
     /*CHANGES TO FULL HEADER*/
     .mobile{
@@ -722,7 +722,7 @@ MEDIA QUERIES PAGE
     }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1024px) {
     
     /*NAV BAR*/
     header {
